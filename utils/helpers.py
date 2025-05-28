@@ -1,4 +1,5 @@
 import numpy as np
+import tensorflow as tf
 
 def encode_labels(labels, class_names):
     class_dict = {name: idx for idx, name in enumerate(class_names)}

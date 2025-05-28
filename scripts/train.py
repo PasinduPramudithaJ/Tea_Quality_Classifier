@@ -1,6 +1,6 @@
 import yaml
 import tensorflow as tf
-from tensorflow.keras.callbacks import ModelCheckpoint
+from keras.callbacks import ModelCheckpoint
 from models.tea_cnn_model import build_tea_quality_model
 from preprocess import get_data_generators
 
