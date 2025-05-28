@@ -1,5 +1,6 @@
-from tensorflow.keras.models import Model
-from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+# tea_cnn_model.py
+from keras.models import Model
+from keras.layers import Input, Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 
 def build_tea_quality_model(input_shape=(128, 128, 3), num_quality_classes=3, num_region_classes=7):
     inputs = Input(shape=input_shape)
